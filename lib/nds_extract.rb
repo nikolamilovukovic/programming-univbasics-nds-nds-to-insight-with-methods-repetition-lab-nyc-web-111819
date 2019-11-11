@@ -31,7 +31,7 @@ def list_of_directors(source)
   while i > source.length do 
     stooges = source[i][:name]
     new_array << stooges
-    index += 1 
+    i += 1 
   end
   new_array
   

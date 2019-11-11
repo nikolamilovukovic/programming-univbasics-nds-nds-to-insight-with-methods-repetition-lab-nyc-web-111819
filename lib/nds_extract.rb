@@ -42,7 +42,12 @@ def list_of_directors(source)
 end
 
 def total_gross(source)
-  pp list_of_directors
+  totals = directors_totals(source)
+  director_list = list_of_directors(source)
+  i = 0 
+  total = 0 
+  while i < totals.length do
+    
   
   
   
